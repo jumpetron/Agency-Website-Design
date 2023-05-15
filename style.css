@@ -1,0 +1,131 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --color-black: #000000;
+  --color-davys-grey: #4D4D4D;
+  --color-vermillion: #EF0178;
+  --color-purple: #5243C2;
+  --body-color: #fff;
+
+  /*========== Font and typography ==========*/
+  --font-family: 'Montserrat Alternates', sans-serif;
+
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*=============== BASE ===============*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--body-color);
+  font-size: var(--normal-font-size);
+  transition: 0.5s;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semi-bold);
+  color: var(--color-black);
+  line-height: 1.2;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+/*=============== Global CSS ===============*/
+.container {
+  max-width: 1024px;
+  padding: 0 1.5rem;
+  margin: auto;
+}
+
+
+section {
+  padding: 4rem 0;
+}
+
+.title__section{
+  text-align: center;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+}
+
+.btn{
+  font-family: var(--font-family);
+  font-weight: var(--font-medium);
+  border: 0.063rem solid var(--color-vermillion);
+  padding: .5rem 1.3rem;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
+/*========== Navbar =========*/
+
+/*========== Hero Section =========*/
+
+/*========= Our Clients ===========*/
+
+/*============= About Section ==============*/
+
+/*=========== Our Service =========*/
+
+/*========= Hire Developers =========*/
+
+/*========= Pricing Section =========*/
+
+/*========== Testimonial Section ===========*/
+
+/*========== Footer Section =========*/
