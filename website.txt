@@ -28,9 +28,9 @@ service__title -> Our service
 
 service__subtitle -> Determine the service you need
 
-service__card -> Development, UI/UX Designer, Motion Graphik
+service__card -> Development, UI/UX Designer, Motion Graphik, Best Award history
 
-<small>Create a platform with the best and coolest quality from us.</small>
+Create a platform with the best and coolest quality from us.
 
 <!--============= Hire Developers =========-->
 
